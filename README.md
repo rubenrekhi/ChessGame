@@ -1,29 +1,29 @@
-#Chess Game Project
-##Description
+# Chess Game Project
+## Description
 This Chess Game Project is an interactive, board-based game developed using principles of object-oriented programming. Designed to showcase modularity, reusability, and scalability, the game features a robust architecture encapsulating the functionality into discrete classes. The project demonstrates intricate game mechanics and player interactions, with a focus on the effective application of object-oriented design.
 
-##Table of Contents
+## Table of Contents
 Installation
 Usage
 Credits
 License
 
-##Installation
-###Prerequisites
+## Installation
+### Prerequisites
 * g++-11 compiler with C++20 support
 * XQuartz for graphical display (for macOS users)
-###Steps
+### Steps
 1. Clone the repository from GitHub to your local machine.
 2. Ensure you have g++-11 installed and set as the default compiler.
 3. Install XQuartz to enable graphical display, following the official installation guide.
-###Running on a Remote Server
-####If you're using a university or any remote server:
+### Running on a Remote Server
+#### If you're using a university or any remote server:
 
 1. Transfer the project files to your remote server.
 2. Follow the installation steps on the server.
 3. Use SSH with X11 forwarding enabled to connect to the server and run the game.
-##Usage
-###To play the chess game:
+## Usage
+### To play the chess game:
 
 1. Open a terminal in the project directory.
 2. Run the make command to compile the project: make
@@ -32,7 +32,7 @@ License
 
 The game is played in the terminal, and the graphic display is only for visuals; it is not interactive.
 
-###Game Commands:
+### Game Commands:
 NOTE: Capital letters (ex. 'K', 'Q') represent white pieces, and underscore letters represent black pieces. All pieces are represented by the first letter in their name, except the Knight which is a 'N' or 'n' depending on the colour. 
 * -- game 'white-player'  'black-player' -- starts a new game. The parameters 'white-player' and 'black-player' can be either 'human' or 'computer[1-4]'. Computer levels are of increasing difficulty.
 * -- resign -- concedes the game to your opponent. This is the only way, outside of winning or drawing the game, to end a game.
@@ -46,7 +46,7 @@ NOTE: Capital letters (ex. 'K', 'Q') represent white pieces, and underscore lett
 
 
 
-##Credits
+## Credits
 This project was developed by Ruben Rekhi and Tharsihan Ariyanayagam. Special thanks to all those who have provided feedback and suggestions.
 
 
