@@ -6,7 +6,7 @@ This Chess Game Project is an interactive, board-based game developed using prin
 Installation \
 Usage \
 Credits \
-License \
+License
 
 ## Installation
 ### Prerequisites
